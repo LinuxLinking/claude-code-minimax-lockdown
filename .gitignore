@@ -1,0 +1,11 @@
+# runtime artifacts -- do not commit
+lockdown.log
+lockdown-report.txt
+minimax_lockdown/
+
+# per-machine real config (paths / model names differ per user)
+config.json
+
+# python bytecode
+__pycache__/
+*.pyc

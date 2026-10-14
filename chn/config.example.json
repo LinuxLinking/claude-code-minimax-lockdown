@@ -1,0 +1,23 @@
+{
+  "_comment": "复制本文件为 config.json，填你本机的真实值。config.json 会被 .gitignore 忽略，不会上传。",
+
+  "proxy_url": "http://127.0.0.1:PORT/v1/messages",
+  "auditor_model": "your-auditor-model-name",
+  "audit_timeout": 30,
+  "conf_auto": 0.85,
+
+  "_legit_roots_comment": "你本机合法工具链/依赖缓存的根目录，读取这些算正常。换成你自己的路径。",
+  "legit_roots": [
+    "D:\\path\\to\\sdk",
+    "D:\\path\\to\\toolchain",
+    "E:\\path\\to\\jdk",
+    "E:\\path\\to\\db",
+    "C:\\Windows",
+    "C:\\Program Files",
+    "C:\\Program Files (x86)",
+    "C:\\ProgramData"
+  ],
+
+  "_temp_roots_comment": "可选；留空则自动用环境变量 TEMP。",
+  "temp_roots": []
+}

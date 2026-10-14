@@ -1,0 +1,23 @@
+{
+  "_comment": "Copy this file to config.json and fill in your real values. config.json is gitignored and never uploaded.",
+
+  "proxy_url": "http://127.0.0.1:PORT/v1/messages",
+  "auditor_model": "your-auditor-model-name",
+  "audit_timeout": 30,
+  "conf_auto": 0.85,
+
+  "_legit_roots_comment": "Legit toolchain / dependency-cache roots on your machine; reads/writes here are treated as normal. Replace with your own paths.",
+  "legit_roots": [
+    "D:\\path\\to\\sdk",
+    "D:\\path\\to\\toolchain",
+    "E:\\path\\to\\jdk",
+    "E:\\path\\to\\db",
+    "C:\\Windows",
+    "C:\\Program Files",
+    "C:\\Program Files (x86)",
+    "C:\\ProgramData"
+  ],
+
+  "_temp_roots_comment": "Optional; leave empty to auto-use the TEMP env var.",
+  "temp_roots": []
+}
